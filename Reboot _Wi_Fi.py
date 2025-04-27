@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 from selenium.webdriver.chrome.service import Service as ChromeService
 
-def Reboot _Wi_Fi():
+def Reboot_Wi_Fi():
     # Set up Chrome options (headless mode optional)
     options = webdriver.ChromeOptions()
     #options.add_argument("--headless")  # Uncomment to run in headless mode
